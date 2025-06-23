@@ -1,0 +1,5 @@
+1- instead of dp recusive take it or leave it for sum of some nums of array do
+    bitset of all sums asuume it arr[i]* n (max array size * max element) 
+    asuume the begin of dp = 0 and as we take || leave it in dp recursive
+    we will dp|= (dp << arr[i]) ; the or to(leave it and it still true ) 
+                                 the left shift to take it (add it to the sum make it true)    
